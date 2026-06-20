@@ -149,7 +149,7 @@ export default function HeroSection() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.6 }}>
-                    Farm-to-cup single-origion beans from Ethiopia, Columbia & beyond. Freshly
+                    Farm-to-cup single-origin beans from Ethiopia, Columbia & beyond. Freshly
                     roasted in small batches and shipped to your door within 48 hours.
                 </motion.p>
 
