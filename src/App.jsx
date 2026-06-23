@@ -56,6 +56,8 @@
 import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
 import FooterSection from "./components/FooterSection";
+import ContactSection from "./components/ContactSection";
+import ContactForm from "./components/ContactForm";
 
 export default function App() {
     return (
@@ -79,6 +81,12 @@ export default function App() {
             {/*ABOUT */}
 
             {/*CONTACT */}
+            <section className="bg-CTA" id="contact">
+                <div className="CTA-grid">
+                    <ContactSection />
+                    <ContactForm />
+                </div>
+            </section>
 
             {/*FOOTER */}
             <section className="bg-footer">
