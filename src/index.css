@@ -316,15 +316,16 @@ a {
 }
 
 .hero-art {
-    width: 140%;
-    max-width: none;
-    max-height: none;
-    object-fit: contain;
+    width: min(100%, 540px);
+    max-width: 540px;
+    max-height: min(72vh, 560px);
+    object-fit: cover;
+    border-radius: 28px;
     filter: drop-shadow(-12px 24px 60px rgba(0, 0, 0, 0.3))
         drop-shadow(0 8px 20px rgba(0, 0, 0, 0.15));
     position: relative;
     z-index: 3;
-    margin-left: -20%;
+    margin-left: 0;
     pointer-events: none;
 }
 
@@ -333,7 +334,7 @@ a {
     align-items: center;
     justify-content: center;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
     z-index: 2;
 }
 
@@ -1778,4 +1779,11 @@ a {
         gap: 12px;
         text-align: center;
     }
+}
+
+
+.hero-video {
+    object-fit: cover;
+    border-radius: 32px;
+    background: #2a1a12;
 }
